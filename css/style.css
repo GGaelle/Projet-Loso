@@ -1,13 +1,12 @@
-/* General CSS */
+* {
+    margin: 0;
+    padding: 0;
+}
 body {
-    padding-top: 100px;
-    font-family: Arial, sans-serif;
-    color: #333;
+    font-family: "Raleway", sans-serif;
+    overflow-y: scroll; 
+    overflow-x: hidden;    
 }
-
-/* Footer */
-#footer-p {
-    padding: 30px 0;
+p {
+    font-size: 14px;    
 }
-
-
