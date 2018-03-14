@@ -202,8 +202,16 @@ p {
     -moz-transition: all is;
 }
 
-
-
+.choose-u-item h3 {
+    color: #343434;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 800;
+}
+.choose-u-item p {
+    color: #727272;
+    font-size: 15px;
+}
 
 
 
