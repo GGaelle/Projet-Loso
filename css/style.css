@@ -13,8 +13,8 @@ p {
 
 /* ==== Generic CSS ==== */
 .section-title {
-    padding-top: 90px;
-    padding-bottom: 50px;
+    padding-top: 50px;
+    padding-bottom: 60px;
 }
 .section-title h2 {
     position: relative;
@@ -144,6 +144,7 @@ p {
 
 .header-iphone img{
     width: 100%;
+    margin-bottom: 25px;
     
 }
 
@@ -269,7 +270,7 @@ p {
 
 /*====== Features =======*/
 .features-inner-wrapper {
-    padding-top: 30px;
+    padding-top: 15px;
     padding-bottom: 70px;
 }
 .left-feature-item {
@@ -300,7 +301,7 @@ p {
     color: #333;
     font-size: 16px;
     font-weight: 300;
-    line-height: 28px;
+    line-height: 25px;
 }
 .feature-iphone img {
     width: 100%;
@@ -310,9 +311,10 @@ p {
     padding-left: 90px;
     margin-bottom: 65px;
     margin-top: 35px;
+    text-align: left;
 }
 
-.right-feature-item-icon {
+.right-feature-item-icons {
     position: absolute;
     left: 0;
     top: -8px;
@@ -323,9 +325,20 @@ p {
     text-align: center;    
 }
 
+.right-feature-item h3 {
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 21px;
+    color: #333;
+}
 
-
-
+.right-feature-item p {
+    color: #333;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 25px;
+}
 
 
 
