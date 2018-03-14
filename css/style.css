@@ -247,14 +247,41 @@ p {
 .testimonial-caption h2 {
     color: #129CF3;
     text-transform: uppercase;
-    font-weight: 900px;
+    font-weight: 700;
     font-size: 30px;
     margin-top: 25px;
 }
 .testimonial-caption h4 {
     color: #129CF3;
-    
 }
+
+.testimonial-caption h4 span {
+    color: #D8D8D8;
+    font-style: italic;
+    font-weight: 300;
+}
+.testimonial-caption p {
+    color: #D8D8D8;
+    font-size: 18px;
+    line-height: 27px;
+    padding-top: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
