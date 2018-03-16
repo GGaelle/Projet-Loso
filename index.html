@@ -27,11 +27,16 @@
         
         <!-- Fontawesome -->
         <link rel="stylesheet" href="css/ionicons.min.css">
+        
+          <!-- Animate CSS -->
+        <link rel="stylesheet" type="text/css" href="css/animate.css">  
+        
         <link rel="stylesheet" type="text/css" href="css/style.css">
          
         <!-- BX Slider CSS -->
         <link rel="stylesheet" type="text/css" href="css/jquery.bxslider.css">
-             
+        
+                
     </head>
     
     
@@ -76,8 +81,6 @@
             
             
             
-            
-            
             <div class="header-overlay">
             
                 <div class="container header-container">
@@ -109,8 +112,8 @@
                             <div class="header-btns">
                                 
                             <!-- Header buttons -->
-                            <a class="btn btn-download" href="#">Download</a>
-                            <a class="btn btn-tour" href="#">Take a Tour
+                            <a class="btn btn-download wow fadeInLeft" href="#">Download</a>
+                            <a class="btn btn-tour wow fadeInRight" href="#">Take a Tour
 
                                 <i class="ion ion-chevron-down"></i>
                             </a>
@@ -124,11 +127,9 @@
                             <div class="header-iphone">
                             
                             <!-- header iphone -->
-                            <img src="Images/iphone-header.png"
-alt="header iphone">                            
+                            <img src="Images/iphone-header.png" alt="header iphone">                            
                             </div>
-                        
-                        
+
                         </div>
                     </div>
                     
@@ -174,7 +175,7 @@ alt="header iphone">
                         <div class="col-md-6">
                         
                             <!-- About iphone-->
-                            <div class="about-iphone">
+                            <div class="about-iphone wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".5s">
                                 <img src="Images/about-iphone.png" alt="iphone">
                                 
                             </div>
@@ -182,7 +183,7 @@ alt="header iphone">
                         
                         </div>
                     
-                        <div class="col-md-6">
+                        <div class="col-md-6 wow fadeInRight" data-wow-duration="1s" data-wow-delay=".5s">
                             
                             <!-- Why choose us title -->
                             <div class="choose-us-title">
@@ -196,7 +197,7 @@ alt="header iphone">
                             <div class="choose-us-des">
                             
                                 <!-- Choose us item 1 -->
-                                <div class="choose-us-item">
+                                <div class="choose-us-item wow fadeInUp" data-wow-duration=".5s" data-wow-delay="1s">
                                 
                                     <!-- choose us item icon -->
                                     <div><i class="ion ion-ios-bolt"></i></div>
@@ -209,7 +210,7 @@ alt="header iphone">
                             
                                 
                            <!-- Choose us item 2 -->
-                               <div class="choose-us-item">
+                               <div class="choose-us-item wow fadeInUp" data-wow-duration=".5s" data-wow-delay="1s">
                                 
                                     <!-- choose us item icon -->
                                     <div><i class="ion ion-speakerphone"></i></div>
@@ -221,7 +222,7 @@ alt="header iphone">
                                 </div>      
                                 
                          <!-- Choose us item 3 -->
-                         <div class="choose-us-item">
+                         <div class="choose-us-item wow fadeInUp" data-wow-duration=".5s" data-wow-delay="1s">
                                 
                                     <!-- choose us item icon -->
                                     <div><i class="ion ion-flag"></i></div>
@@ -782,10 +783,12 @@ alt="header iphone">
         <script src="js/jquery.bxslider.min.js"></script>
         
         
-        <!!-- Add JS counter lib -->
+        <!-- Add JS counter lib -->
         <script src="js/jquery.waypoints.min.js"></script>
         <script src="js/jquery.counterup.min.js"></script> 
         
+        <!-- Add wow js lib -->
+        <script src="js/wow.min.js"></script>
         
         <!-- Custom.js -->
         <script src="js/custom.js"></script>
